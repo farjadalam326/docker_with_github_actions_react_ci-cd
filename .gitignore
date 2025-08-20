@@ -5,7 +5,6 @@ dist
 .gitignore
 README.md
 .eslintrc.cjs
-Dockerfile
 .dockerignore
 .env
 .env.local
