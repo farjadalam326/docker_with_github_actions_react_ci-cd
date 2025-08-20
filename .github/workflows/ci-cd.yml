@@ -19,8 +19,8 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-      - name: Build Docker image
-        run: docker build -t farjadalam326/docker:latest
+     - name: Build Docker image
+        run: docker build -t farjadalam326/docker:latest .
 
       - name: Push Docker image
         run: docker push farjadalam326/docker:latest
